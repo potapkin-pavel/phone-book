@@ -1,8 +1,8 @@
-package pl.krakow.service;
+package pl.krakow.phonebook.customer.repository;
 
-import pl.krakow.domain.Customer;
-import pl.krakow.exception.CustomerExistException;
-import pl.krakow.exception.CustomerNotFoundException;
+import pl.krakow.phonebook.customer.domain.Customer;
+import pl.krakow.phonebook.customer.exception.CustomerExistException;
+import pl.krakow.phonebook.customer.exception.CustomerNotFoundException;
 
 import java.util.List;
 

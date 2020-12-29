@@ -1,4 +1,4 @@
-package pl.krakow.domain;
+package pl.krakow.phonebook.customer.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,5 +9,7 @@ public class Customer {
 
     private String name;
     private String number;
+
+    public Customer() {}
 
 }

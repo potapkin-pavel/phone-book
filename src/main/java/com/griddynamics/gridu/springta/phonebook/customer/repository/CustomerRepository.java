@@ -1,8 +1,8 @@
-package pl.krakow.phonebook.customer.repository;
+package com.griddynamics.gridu.springta.phonebook.customer.repository;
 
-import pl.krakow.phonebook.customer.domain.Customer;
-import pl.krakow.phonebook.customer.exception.CustomerExistException;
-import pl.krakow.phonebook.customer.exception.CustomerNotFoundException;
+import com.griddynamics.gridu.springta.phonebook.customer.domain.Customer;
+import com.griddynamics.gridu.springta.phonebook.customer.exception.CustomerExistException;
+import com.griddynamics.gridu.springta.phonebook.customer.exception.CustomerNotFoundException;
 
 import java.util.List;
 

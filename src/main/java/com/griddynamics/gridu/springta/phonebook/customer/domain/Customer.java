@@ -1,4 +1,4 @@
-package pl.krakow.phonebook.customer.domain;
+package com.griddynamics.gridu.springta.phonebook.customer.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

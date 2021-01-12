@@ -1,10 +1,10 @@
-package pl.krakow.phonebook.customer.service;
+package com.griddynamics.gridu.springta.phonebook.customer.service;
 
+import com.griddynamics.gridu.springta.phonebook.customer.domain.Customer;
+import com.griddynamics.gridu.springta.phonebook.customer.exception.CustomerExistException;
+import com.griddynamics.gridu.springta.phonebook.customer.exception.CustomerNotFoundException;
+import com.griddynamics.gridu.springta.phonebook.customer.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
-import pl.krakow.phonebook.customer.domain.Customer;
-import pl.krakow.phonebook.customer.exception.CustomerExistException;
-import pl.krakow.phonebook.customer.exception.CustomerNotFoundException;
-import pl.krakow.phonebook.customer.repository.CustomerRepository;
 
 import java.util.List;
 

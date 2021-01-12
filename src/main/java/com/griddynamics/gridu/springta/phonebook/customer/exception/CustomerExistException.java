@@ -1,6 +1,6 @@
-package pl.krakow.phonebook.customer.exception;
+package com.griddynamics.gridu.springta.phonebook.customer.exception;
 
-import pl.krakow.phonebook.exception.ResourceExistException;
+import com.griddynamics.gridu.springta.phonebook.exception.ResourceExistException;
 
 public class CustomerExistException extends ResourceExistException {
 

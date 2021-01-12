@@ -1,10 +1,10 @@
-package pl.krakow.phonebook;
+package com.griddynamics.gridu.springta.phonebook;
 
+import com.griddynamics.gridu.springta.phonebook.customer.domain.Customer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import pl.krakow.phonebook.customer.domain.Customer;
 
 import java.util.ArrayList;
 import java.util.List;

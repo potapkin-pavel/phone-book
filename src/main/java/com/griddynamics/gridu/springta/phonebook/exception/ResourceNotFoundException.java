@@ -1,4 +1,4 @@
-package pl.krakow.phonebook.exception;
+package com.griddynamics.gridu.springta.phonebook.exception;
 
 public class ResourceNotFoundException extends Exception {
 

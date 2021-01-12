@@ -1,4 +1,4 @@
-package pl.krakow.phonebook;
+package com.griddynamics.gridu.springta.phonebook;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;

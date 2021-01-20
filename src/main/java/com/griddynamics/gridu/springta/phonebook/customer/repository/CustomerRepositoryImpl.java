@@ -23,12 +23,9 @@ public class CustomerRepositoryImpl implements CustomerRepository {
 
     @Override
     public Customer findByName(String name) throws CustomerNotFoundException {
-        for (Customer customer: data) {
-            if (customer.getName().equalsIgnoreCase(name)) {
-                return customer;
-            }
-        }
-        throw new CustomerNotFoundException("Customer is not found");
+        return data.stream()
+                .filter(customer -> name.equals(customer.getName()))
+                .findAny().orElseThrow(() -> new CustomerNotFoundException(name));
     }
 
     @Override

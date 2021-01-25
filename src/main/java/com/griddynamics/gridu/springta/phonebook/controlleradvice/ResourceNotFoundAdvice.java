@@ -1,6 +1,6 @@
 package com.griddynamics.gridu.springta.phonebook.controlleradvice;
 
-import com.griddynamics.gridu.springta.phonebook.exception.ResourceNotFoundException;
+import com.griddynamics.gridu.springta.phonebook.exceptions.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

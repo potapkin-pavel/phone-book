@@ -1,6 +1,6 @@
 package com.griddynamics.gridu.springta.phonebook;
 
-import com.griddynamics.gridu.springta.phonebook.customer.domain.Customer;
+import com.griddynamics.gridu.springta.phonebook.domain.Customer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

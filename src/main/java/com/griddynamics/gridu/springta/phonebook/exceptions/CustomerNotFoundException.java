@@ -1,6 +1,4 @@
-package com.griddynamics.gridu.springta.phonebook.customer.exception;
-
-import com.griddynamics.gridu.springta.phonebook.exception.ResourceNotFoundException;
+package com.griddynamics.gridu.springta.phonebook.exceptions;
 
 public class CustomerNotFoundException extends ResourceNotFoundException {
 

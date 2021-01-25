@@ -1,9 +1,9 @@
-package com.griddynamics.gridu.springta.phonebook.customer.controller;
+package com.griddynamics.gridu.springta.phonebook.controllers;
 
-import com.griddynamics.gridu.springta.phonebook.customer.domain.Customer;
-import com.griddynamics.gridu.springta.phonebook.customer.exception.CustomerExistException;
-import com.griddynamics.gridu.springta.phonebook.customer.exception.CustomerNotFoundException;
-import com.griddynamics.gridu.springta.phonebook.customer.service.CustomerService;
+import com.griddynamics.gridu.springta.phonebook.domain.Customer;
+import com.griddynamics.gridu.springta.phonebook.exceptions.CustomerExistException;
+import com.griddynamics.gridu.springta.phonebook.exceptions.CustomerNotFoundException;
+import com.griddynamics.gridu.springta.phonebook.services.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -37,7 +37,7 @@ public class CustomerController {
     }
 
     @PutMapping(path = "/{name}", consumes = APPLICATION_JSON)
-    public Customer getCustomerByName(@PathVariable("name") String name, @RequestBody Customer customer)
+    public Customer updateCustomerByName(@PathVariable("name") String name, @RequestBody Customer customer)
             throws CustomerNotFoundException {
         return customerService.update(name, customer);
     }

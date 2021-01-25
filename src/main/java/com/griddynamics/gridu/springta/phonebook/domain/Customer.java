@@ -1,4 +1,4 @@
-package com.griddynamics.gridu.springta.phonebook.customer.domain;
+package com.griddynamics.gridu.springta.phonebook.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

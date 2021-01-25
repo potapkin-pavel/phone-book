@@ -1,4 +1,4 @@
-package com.griddynamics.gridu.springta.phonebook.exception;
+package com.griddynamics.gridu.springta.phonebook.exceptions;
 
 public class ResourceExistException extends Exception {
 
